@@ -1,0 +1,186 @@
+:root{
+  /* Primary */
+   --Soft-red: hsl(7, 99%, 70%);
+   --Yellow: hsl(51, 100%, 49%);
+   --Dark-desaturated-cyan-graphic-design-text: hsl(167, 40%, 24%);
+   --Dark-blue-photography-text: hsl(198, 62%, 26%)
+   --Dark-moderate-cyan-footer-text: hsl(168, 34%, 41%);
+
+   /* Neutral */
+
+   --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+   --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+   --Dark-grayish-blue: hsl(232, 10%, 55%);
+   --Grayish-blue: hsl(210, 4%, 67%);
+   --White: hsl(0, 0%, 100%);  
+
+   /* font-family */
+   --barlow:'Barlow', sans-serif;
+   --fraunces: 'Fraunces', serif;
+}
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: initial;
+  font-size: 62.5%;
+}
+
+body {   
+  text-align: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.2;
+}
+
+
+/* header */
+header{
+  background: url('/images/mobile/image-header.jpg') no-repeat center center/cover;
+  height: 60vh;
+  top: 0;
+  left: 0;    
+}
+
+.nav-container{
+  margin: 0 1em;
+}
+
+
+.header-logo{
+  width: 10em;  
+}
+
+.menu-btn{
+  width: 2em;
+  height: 1.5em;
+  cursor: pointer;
+}
+
+nav {
+  padding: 2.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul{
+  /* display: none; */
+  clip-path: polygon(0 10%, 88% 10%, 100% 0, 100% 99%, 1% 100%);
+  position: fixed;
+  top: 5em;
+  right: 3.5em;
+  width: 82%;
+  height: 42vh;
+  background: var(--White);
+  z-index: 10;
+  padding: 2em;
+  transform: translateX(120%);
+  transition: transform .3s;
+}
+
+nav ul li a{
+  color: var(--Very-dark-grayish-blue);
+  display: block;
+  padding: 1rem;
+  font-family: var(--barlow);
+  font-size: 1.8rem;
+}
+
+nav ul li:first-child {  
+  margin-top: 5rem;
+}
+
+.contact-btn{
+  background: var(--Yellow);
+  border-radius: 30px;
+  width: 15rem;
+  height: 5.5rem;
+  padding: 0.8rem 2rem;
+  margin: 3em auto;
+}
+
+.contact-btn a{
+  text-transform: uppercase;
+  color: var(--Very-dark-desaturated-blue);
+  font-family: var(--fraunces);
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+.content{
+  margin: 5em 3em 0;
+  height: 75vh;
+}
+
+
+h1{
+  font-size: 3rem;
+  font-family: var(--fraunces) ;
+  text-transform: uppercase;
+  color: var(--White);
+  letter-spacing: 0.6rem;    
+}
+
+.arrow-container{
+  position: relative;
+  margin: 5.2em auto;
+  /* height: 9em; */
+  width: 12%;
+}
+
+.arrow{
+  animation: pulse 2s alternate-reverse infinite;
+}
+
+@keyframes pulse{
+  from {
+    transform: translateY(-30px);
+  }
+}
+
+/* brand section */
+/* audience section */
+/* graphic - photography section */
+/* testimonial section */
+.testimonial_img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* image gallery section */
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bottom */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
