@@ -11,3 +11,11 @@ ul {
 img {
   width: 100%;
 }
+
+.btn {
+  text-transform: uppercase;
+  font-family: var(--barlow);
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 400;
+}
