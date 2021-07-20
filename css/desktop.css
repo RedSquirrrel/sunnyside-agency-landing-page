@@ -1,6 +1,6 @@
 header {
   background: url('../images/desktop/image-header.jpg') no-repeat center center/cover;
-  max-height: 2000px;
+  height: 840px;
   top: 0;
 }
 
@@ -269,10 +269,10 @@ h4 {
 }
 
 .testimonial:hover {
-  transition: box-shadow 0.5s ease-in;
-  border-radius: 10px;
-  background: #ffffff;
-  box-shadow: 36px 36px 72px #d5d5d5, -36px -36px 72px #ebebeb;
+  transition: all 0.5s ease-in;
+  /* border-radius: 10px; */
+  background: #eceaea;
+  box-shadow: -1px 38px 112px 0px #d5d5d5, 0px 1px 1px #ebebeb;
 }
 
 .testimonial_name {
@@ -346,9 +346,10 @@ footer {
 }
 
 .footer_logo {
-  width: 13vw;
+  width: 12vw;
   height: 3rem;
   margin-top: -0.5rem;
+  margin: -0.5rem auto 1rem 6rem;
 }
 
 .footer_ul {

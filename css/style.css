@@ -4,7 +4,7 @@
   --Yellow: hsl(51, 100%, 49%);
   --Dark-desaturated-cyan-graphic-design-text: hsl(167, 40%, 24%);
   --Dark-blue-photography-text: hsl(198, 62%, 26%);
-  --Dark-moderate-cyan-footer-bg: hsl(166, 30%, 53%);
+  --Dark-moderate-cyan-footer-bg: hsl(166, 53%, 71%);
   --Dark-moderate-cyan-footer-text: hsl(168, 34%, 41%);
 
   /* Neutral */
@@ -37,6 +37,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   line-height: 1.2;
+  background-color: #f0ecec;
 }
 
 /* header */
