@@ -11,9 +11,10 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/utilities.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="./css/desktop.css" />
 
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
@@ -22,12 +23,12 @@
     <header>
       <div class="nav-container">
         <nav>
-          <img class="header-logo" src="/images/logo.svg" alt="" />
-          <img class="menu-btn" src="/images/icon-hamburger.svg" alt="" />
+          <img class="header-logo" src="./images/logo.svg" alt="" />
+          <img class="menu-btn" src="./images/icon-hamburger.svg" alt="" />
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Projects</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Services</a></li>
+            <li class="link"><a href="#">Projects</a></li>
             <li class="contact-btn"><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -35,7 +36,7 @@
       <div class="content">
         <h1>We are creatives</h1>
         <div class="arrow-container">
-          <img class="arrow" src="/images/icon-arrow-down.svg" alt="" />
+          <img class="arrow" src="./images/icon-arrow-down.svg" alt="" />
         </div>
       </div>
     </header>
@@ -48,7 +49,9 @@
           We are a full-service creative agency specializing in helping brands grow fast. Engage
           your clients through compelling visuals that do most of the marketing for you.
         </p>
+        <!-- <div class="line yellow"> -->
         <a class="btn brand_btn" href="#">Learn more</a>
+        <!-- </div> -->
       </div>
     </section>
 
@@ -67,7 +70,7 @@
     <section class="graphic_photo">
       <div class="graphic_left">
         <div class="graphic_text">
-          <h4>Graphic design</h4>
+          <h4 class="graphic_title">Graphic Design</h4>
           <p class="graphic_paragraph">
             Great design makes you memorable. We deliver artwork that underscores your brand message
             and captures potential clients’ attention.
@@ -76,7 +79,7 @@
       </div>
       <div class="graphic_right">
         <div class="graphic_photo_text">
-          <h4>Photography</h4>
+          <h4 class="graphic_title">Photography</h4>
           <p class="graphic_paragraph">
             Increase your credibility by getting the most stunning, high-quality photos that improve
             your business image.
@@ -94,8 +97,10 @@
             We put our trust in Sunnyside and they delivered, making sure our needs were met and
             deadlines were always hit.
           </p>
-          <p class="testimonial_name">Emily R.</p>
-          <p class="testimonial_title">Marketing Director</p>
+          <div class="center">
+            <p class="testimonial_name">Emily R.</p>
+            <p class="testimonial_title">Marketing Director</p>
+          </div>
         </div>
 
         <div class="testimonial">
@@ -130,25 +135,27 @@
     </section>
 
     <footer>
-      <img class="footer_logo" src="/images/footer_logo.svg" alt="logo" />
-      <ul class="footer_ul">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-      </ul>
-      <div class="social_media_icons">
-        <img class="footer_social_icon" src="/images/icon-instagram.svg" alt="" />
-        <img class="footer_social_icon" src="/images/icon-facebook.svg" alt="" />
-        <img class="footer_social_icon" src="/images/icon-twitter.svg" alt="" />
-        <img class="footer_social_icon" src="/images/icon-pinterest.svg" alt="" />
-      </div>
+      <div class="footer">
+        <img class="footer_logo" src="./images/footer_logo.svg" alt="logo" />
+        <ul class="footer_ul">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+        <div class="social_media_icons">
+          <img class="footer_social_icon" src="./images/icon-instagram.svg" alt="" />
+          <img class="footer_social_icon" src="./images/icon-facebook.svg" alt="" />
+          <img class="footer_social_icon" src="./images/icon-twitter.svg" alt="" />
+          <img class="footer_social_icon" src="./images/icon-pinterest.svg" alt="" />
+        </div>
 
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Anette</a>.
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Anette</a>.
+        </div>
       </div>
     </footer>
-    <script src="/js/index.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

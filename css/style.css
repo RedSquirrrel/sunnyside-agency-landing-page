@@ -20,9 +20,6 @@
   --fraunces: 'Fraunces', serif;
 }
 
-/* font-family: 'Barlow', sans-serif;
-font-family: 'Fraunces', serif; */
-
 *,
 *::before,
 *::after {
@@ -44,8 +41,7 @@ body {
 
 /* header */
 header {
-  background: url('/images/mobile/image-header.jpg') no-repeat center center/cover;
-  height: 60vh;
+  background: url('../images/mobile/image-header.jpg') no-repeat center center/cover;
   top: 0;
   left: 0;
 }
@@ -71,7 +67,6 @@ nav {
 }
 
 nav ul {
-  /* display: none; */
   clip-path: polygon(0 10%, 88% 10%, 100% 0, 100% 99%, 1% 100%);
   position: fixed;
   top: 5em;
@@ -131,7 +126,6 @@ h1 {
 .arrow-container {
   position: relative;
   margin: 5.2em auto;
-  /* height: 9em; */
   width: 12%;
 }
 
@@ -171,16 +165,6 @@ h4 {
   word-spacing: 1rem;
 }
 
-/* p {
-  color: var(--Dark-grayish-blue);
-  line-height: 1.6;
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-  padding: 1rem 1.3rem 1rem 1.3rem;
-  font-family: var(--barlow);
-} */
-
 .brand_paragraph,
 .audience_paragraph,
 .graphic_paragraph {
@@ -195,7 +179,7 @@ h4 {
 
 /* audience section */
 .audience_left {
-  background: url('../images//mobile/image-stand-out.jpg') no-repeat center center/cover;
+  background: url('../images/mobile/image-stand-out.jpg') no-repeat center center/cover;
   height: 40vh;
 }
 
@@ -300,7 +284,7 @@ h4 {
 }
 
 .milk {
-  background: url('../images//mobile/image-gallery-milkbottles.jpg') no-repeat center center/cover;
+  background: url('../images/mobile/image-gallery-milkbottles.jpg') no-repeat center center/cover;
   height: 25vh;
   width: 100%;
 }
@@ -321,9 +305,8 @@ h4 {
 }
 
 /* footer */
-
 footer {
-  height: 40vh;
+  min-height: 39vh;
   background: var(--Dark-moderate-cyan-footer-bg);
 }
 
@@ -343,12 +326,16 @@ footer {
 .footer_ul li a {
   color: var(--Dark-blue-photography-text);
 }
+.footer_ul li a:hover {
+  color: var(--White);
+}
 
 .social_media_icons {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
   margin: 0 auto;
+  padding-bottom: 3rem;
 }
 .footer_social_icon {
   margin-top: 5rem;
@@ -357,17 +344,22 @@ footer {
   cursor: pointer;
 }
 
+.footer_social_icon:hover {
+  filter: invert(27%) sepia(51%) saturate(5%) hue-rotate(181deg) brightness(160%) contrast(150%);
+}
+
 /* bottom */
 .attribution {
-  margin-top: 5rem;
+  margin-bottom: 5rem;
   font-size: 1.2rem;
   text-align: center;
   font-family: var(--fraunces);
+  color: var(--Very-dark-grayish-blue);
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
 .attribution a:hover {
-  color: hsl(228, 45%, 34%);
+  color: var(--White);
 }

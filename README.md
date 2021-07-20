@@ -1,18 +1,54 @@
-# Frontend Mentor - Sunnyside agency landing page - Welcome! 👋
+# Frontend Mentor - Sunnyside agency landing page solution
 
-## The challenge
+This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
+## Table of contents
 
-This challenge focuses mostly on HTML & CSS. There's a tiny bit of JS included for the mobile navigation toggle. But you could also choose to do this without JS!
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+<div align='center'>
 
-Your users should be able to:
+## ---------------------------------------------------------------------------------------------------------------------
+
+</div>
+
+## Overview
+
+### The challenge
+
+Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Screenshot
 
-**Have fun building!** 🚀🚀🚀🚀🚀
+![](./cover.png)
+
+### Links
+
+- Solution URL: [Solution URL:](https://github.com/RedSquirrrel/sunnyside-agency-landing-page)
+- Live Site URL: [Live site URL:](https://redsquirrrel.github.io/sunnyside-agency-landing-page/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Vanilla JS
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
