@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL:](https://github.com/RedSquirrrel/sunnyside-agency-landing-page)
-- Live Site URL: [Live site URL:](https://redsquirrrel.github.io/sunnyside-agency-landing-page/)
+- [Here is my Solution](https://github.com/RedSquirrrel/sunnyside-agency-landing-page)
+- [Live site ](https://redsquirrrel.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 
